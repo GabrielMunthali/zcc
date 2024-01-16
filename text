@@ -1,0 +1,24 @@
+<section class="part-c">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-9">
+                    <h4 class="mt-5 mb-5 text-center">Office of the mayor</h4>
+                    <div class="about-div" data-aos="fade-up-right" data-aos-delay="400" data-aos-duration="1000">
+                        <p>
+                            His Worship the Mayor Councilor Davie Maunde, is Councilor for Chinamwali Ward in the City. He was sworn in as Councilor
+                            and Mayor on 22nd December, 2021. <br>
+                            <br>
+                            Mayor Maunde has lived in Zomba City since 1978, where he did his secondary and tertiary education. Mayor Maunde
+                            previously served as Councilor for Chinamwali ward and Deputy Mayor for Zomba City between 2014 and 2019 before his
+                            re-election as councilor in 2019. <br>
+                            <br>
+                            The developmental conscious Mayor hopes to see the improvement of infrastructure in the City of Zomba during his tenure
+                            in all the sectors including education, transport and recreation facilities.
+
+                        </p>
+                        <img src="image/mayor.jpg" alt="Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
