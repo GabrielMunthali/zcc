@@ -41,12 +41,28 @@
         font-size: var(--regular-font);
         padding: 15px;
     }
+    .about{
+    }
     .about img{
-        height: 150px;
-        width: 150px;
-        margin-right: 30px;
+        width: 100%;
+        height: auto;
     }
     .about p{
+        font-size: var(--regular-font);
+    }
+    .about a button{
+        font-size: var(--regular-font);
+        letter-spacing: 3px;
+        background-color: var(--bg-light);
+        border-radius: 50px;
+        border: none;
+        margin-bottom: 30px;
+    }
+    .admins-image img {
+        height: 200px;
+        width: 200px !important;
+    }
+    .footer-quick li{
         font-size: var(--regular-font);
     }
 }

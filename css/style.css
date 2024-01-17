@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
 
 body {
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     font-weight: 300;
@@ -141,8 +140,81 @@ a:active {
     color: var(--black);
 }
 
+.canvas-custom {
+    background-color: var(--accent-color);
+    color: var(--white);
+}
+
+ul.myCanvas-list {
+    padding: 0;
+    margin: 0;
+}
+
+.myCanvas-list li {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: var(--regular-font);
+    display: block;
+    height: 50px;
+    line-height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--border);
+}
+
+.myCanvas-list li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.myCanvas-list li a:hover {
+    color: var(--primary);
+}
+
+ul.myCanvas-socials {
+    margin: 0;
+    padding: 0;
+}
+
+.myCanvas-socials li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.myCanvas-socials li a {
+    text-decoration: none;
+}
+
+.myCanvas-socials li a:hover {}
+
+.myCanvas-socials .la-facebook {
+    color: #354db5;
+}
+
+.myCanvas-socials .la-twitter {
+    color: #23ABFF;
+}
+
+.myCanvas-socials .la-instagram {
+    color: #d6249f;
+}
+
+.myCanvas-socials .la-whatsapp {
+    color: #009710;
+}
+
+.myCanvas-socials .la-linkedin {
+    color: #0077B5;
+}
+
+.myCanvas-socials .la-github {
+    color: #171515;
+}
+
+
 .hero-item {
-    /* Styles for the hero-item container */
+    padding: 0 !important;
 }
 
 .hero-item figure {
@@ -163,7 +235,6 @@ a:active {
     left: 15%;
     z-index: 10;
     padding-top: 20px;
-    padding-bottom: 10px;
 }
 
 .hero-item a {
@@ -289,20 +360,27 @@ a:active {
 }
 
 .about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 60px;
 }
 .about img{
-    height: 350px;
-    width: 350px;
-    margin-right: 60px;
+    height: auto;
     object-fit: cover;
+    margin-bottom: 60px;
     border-radius: var(--radi);
 }
 .about p{
     font-size: var(--heading-font);
+    margin-bottom: 30px;
+}
+.about a button{
+    font-weight: 300;
+    padding: 20px;
+    color: var(--white);
+    text-transform: capitalize;
+    font-size: var(--heading-font);
+    letter-spacing: 3px;
+    background-color: var(--bg-light);
+    border-radius: 50px;
+    border: none;
 }
 .owl-admins {
     margin-bottom: 60px;
@@ -472,7 +550,8 @@ ul.footer-social {
     margin-right: 30px;
     margin-bottom: 10px;
     line-height: 15px;
-    border: 2px solid var(--accent);
+    border: 2px solid var(--border);
+    box-shadow: var(--shadow);
     border-radius: 50%;
     padding: 10px;
 }
@@ -507,7 +586,7 @@ ul.footer-quick {
 
 .footer-quick li a:hover,
 .footer-quick li a:focus {
-    color: var(--primary);
+    color: var(--bg-dark);
 }
 
 .copyright {
